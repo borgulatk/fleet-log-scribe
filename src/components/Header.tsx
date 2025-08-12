@@ -22,9 +22,6 @@ const Header = () => {
             <a href="#features" className="text-fleet-text-light hover:text-fleet-primary transition-[var(--transition-smooth)]">
               Features
             </a>
-            <a href="#pricing" className="text-fleet-text-light hover:text-fleet-primary transition-[var(--transition-smooth)]">
-              Pricing
-            </a>
             <a href="#contact" className="text-fleet-text-light hover:text-fleet-primary transition-[var(--transition-smooth)]">
               Contact
             </a>
@@ -55,9 +52,6 @@ const Header = () => {
             <nav className="flex flex-col gap-4">
               <a href="#features" className="text-fleet-text-light hover:text-fleet-primary transition-[var(--transition-smooth)]">
                 Features
-              </a>
-              <a href="#pricing" className="text-fleet-text-light hover:text-fleet-primary transition-[var(--transition-smooth)]">
-                Pricing
               </a>
               <a href="#contact" className="text-fleet-text-light hover:text-fleet-primary transition-[var(--transition-smooth)]">
                 Contact
