@@ -22,9 +22,6 @@ const Header = () => {
             <a href="#features" className="text-fleet-text-light hover:text-fleet-primary transition-[var(--transition-smooth)]">
               Features
             </a>
-            <a href="#contact" className="text-fleet-text-light hover:text-fleet-primary transition-[var(--transition-smooth)]">
-              Contact
-            </a>
           </nav>
 
           {/* Desktop CTA Buttons */}
@@ -49,9 +46,6 @@ const Header = () => {
             <nav className="flex flex-col gap-4">
               <a href="#features" className="text-fleet-text-light hover:text-fleet-primary transition-[var(--transition-smooth)]">
                 Features
-              </a>
-              <a href="#contact" className="text-fleet-text-light hover:text-fleet-primary transition-[var(--transition-smooth)]">
-                Contact
               </a>
               <div className="flex flex-col gap-2 pt-4">
                 <Button variant="default" size="sm">
