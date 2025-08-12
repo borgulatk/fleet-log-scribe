@@ -29,9 +29,6 @@ const Header = () => {
 
           {/* Desktop CTA Buttons */}
           <div className="hidden md:flex items-center gap-4">
-            <Button variant="ghost" className="text-fleet-text-light hover:text-fleet-primary">
-              Sign In
-            </Button>
             <Button variant="default" size="sm">
               Get Started
             </Button>
@@ -57,9 +54,6 @@ const Header = () => {
                 Contact
               </a>
               <div className="flex flex-col gap-2 pt-4">
-                <Button variant="ghost" className="justify-start text-fleet-text-light hover:text-fleet-primary">
-                  Sign In
-                </Button>
                 <Button variant="default" size="sm">
                   Get Started
                 </Button>
