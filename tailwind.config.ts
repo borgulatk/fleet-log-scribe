@@ -52,15 +52,6 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
-				fleet: {
-					primary: 'hsl(var(--fleet-primary))',
-					'primary-dark': 'hsl(var(--fleet-primary-dark))',
-					secondary: 'hsl(var(--fleet-secondary))',
-					background: 'hsl(var(--fleet-background))',
-					surface: 'hsl(var(--fleet-surface))',
-					text: 'hsl(var(--fleet-text))',
-					'text-light': 'hsl(var(--fleet-text-light))'
-				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
