@@ -19,21 +19,23 @@ const Hero = () => {
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
-            Streamline Your
-            <span className="block bg-gradient-to-r from-white to-fleet-secondary bg-clip-text text-transparent">
-              Fleet Management
-            </span>
+            Our concepts
           </h1>
           
+          <h2 className="text-3xl md:text-4xl font-semibold text-white mb-4">
+            75+ years of innovation and excellence
+          </h2>
+          
           <p className="text-xl md:text-2xl text-white/90 mb-8 leading-relaxed max-w-3xl mx-auto">
-            Track vehicle records, manage maintenance, and document issues with photos. 
-            Keep your fleet running efficiently with our comprehensive management platform.
+            Excellence is driven by our strong belief in continuous improvement, innovation and sustainability
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <Button variant="hero" size="lg" className="text-lg px-8 py-4 h-auto">
-              Get Started Today
-              <ArrowRight className="ml-2 h-5 w-5" />
+            <Button className="bg-lime-500 hover:bg-lime-600 text-black font-semibold px-8 py-3 rounded-none">
+              About Us
+            </Button>
+            <Button variant="outline" className="border-white text-white hover:bg-white hover:text-black px-8 py-3 rounded-none">
+              Get in touch
             </Button>
           </div>
         </div>
